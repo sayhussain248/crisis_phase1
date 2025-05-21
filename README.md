@@ -137,10 +137,10 @@ TUR - Turkey
 
 *Metrics Measured*
 For these countries, 4 metrics were measured: 
-    * People in Need (PIN)
-    * People Targeted
-    * Funding Requirements
-    * Funding Recieved 
+* People in Need (PIN)
+ * People Targeted
+* Funding Requirements
+* Funding Recieved 
  
  Some of these countries did not have data from 2010 all the way to 2024. Others had data that was sparse. 
  The purpose of this project was to explore how humanitarian aid needs and funding has changed over time and for select countries. 
@@ -156,6 +156,18 @@ For these countries, 4 metrics were measured:
  This notebook focused specifically on tracking how Funding Requirements changed in relation to People in Need for Afghanistan. and Syria. Afghanistan was chosen because it had the most amount of data for throughout the years ranging from 2010 to 2024, with the exception of 2016 for Funding Requirements. Syria was also chosen because it ranked the highest on the most people in need, despite their data points ranging more from 2018-2024. 
 
  
+**WRITE UP**
 
+*Univariate* 
 
+Which countries consistently had the highest People in Need (PiN) between 2010 and 2024?
+
+Which year had the most amount of people in need?
+
+How have global humanitarian needs (People Targeted, People in Need, Funding Requirements, and Funding Received) evolved from 2010 to 2024?
+
+*Bivariate*
+ What is the relationship between the amount of people in need and the funding requirements for Afghanistan from 2010 to 2024?
+ What is the relationship between the amount of people in need and the funding requirements for Syria from 2018 to 2024?
+ What is the relationship between the amount of people in need and the amount of people targeted for the top 5 countries with the most amount of people per category?
         
