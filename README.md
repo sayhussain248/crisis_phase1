@@ -1,6 +1,6 @@
 *Humanitarian Needs and Funding from 2010 to 2024* 
 
-This project is an Exploratory Data Analysis on a dataset derived from United Nations Office for the Coordination of Humanitarian Affairs. This dataset tracks humanitarian aid in USD as well as the amount of people in aid across major crisis countries. 
+This project is an Exploratory Data Analysis on a dataset derived from United Nations Office for the Coordination of Humanitarian Affairs. This dataset tracks humanitarian aid in USD as well as the amount of people in need of aid across major crisis countries. 
 There is a total of 66 major crisis countries: 
 
  AFG - Afghanistan
@@ -135,27 +135,50 @@ MWI - Malawi
 
 TUR - Turkey
 
-*Metrics Measured*
+**Metrics Measured**
+
+
 For these countries, 4 metrics were measured: 
-    * People in Need (PIN)
-    * People Targeted
-    * Funding Requirements
-    * Funding Recieved 
+* People in Need (PIN)
+ * People Targeted
+* Funding Requirements
+* Funding Recieved 
  
  Some of these countries did not have data from 2010 all the way to 2024. Others had data that was sparse. 
  The purpose of this project was to explore how humanitarian aid needs and funding has changed over time and for select countries. 
 
  *vanessa_eda.ipnyb*
- This notebook focuses on the question of "Which countries consistently had the highest People in Need (PiN) between 2010 and 2024?" 
- This notebook aggregated the total amount of people in need for each country and ranked those coutries from most amount of People in Need to least amount of People in Need. The top 5 countries was used to create a visualization tracking the change in the amount of People in Need over time. 
+
+ This notebook focuses on two questions: one univariate and one bivaraite. 
+ The univariate question is "Which countries consistently had the highest People in Need (PiN) between 2010 and 2024?" 
+ This notebook aggregated the total amount of people in need for each country and ranked those countries from most amount of People in Need to least amount of People in Need. The top 5 countries was used to create a visualization tracking the change in the amount of People in Need over time. 
+ The bivariate question is "What is the relationship between the amount of people in need and the amount of people targeted for the top 5 countries with the most amount of people per metric?"
+This notebook creates a pivot table for the total numbers of people in need and people targeted for every country and turns it into a dataframe. The countries are ranked based on the sum of these two metrics. A graph for the top 5 are for better details. Stacked bar charts were created for both the top 5 and all countries. Both graphs show that the numbers of people targeted are consistently lower than the number for people in need.
 
  *tinu_eda.ipnyb*
+
  This notebook tracked the changes in the total amounts of People Targeted, Funding Requirements, and Funding Recieved from 2010 to 2024. 
 
  *sayeda_eda.ipnyb*
- This notebook focused specifically on tracking how Funding Requirements changed in relation to People in Need for Afghanistan. and Syria. Afghanistan was chosen because it had the most amount of data for throughout the years ranging from 2010 to 2024, with the exception of 2016 for Funding Requirements. Syria was also chosen because it ranked the highest on the most people in need, despite their data points ranging more from 2018-2024. 
+
+ This notebook focused specifically on tracking how Funding Requirements changed in relation to People in Need for Afghanistan and Syria. Afghanistan was chosen because it had the most amount of data for throughout the years ranging from 2010 to 2024, with the exception of 2016 for Funding Requirements. Syria was also chosen because it ranked the highest on the most people in need, despite their data points ranging more from 2018-2024. 
 
  
+**WRITE UP**
 
+*Univariate* 
 
+Which countries consistently had the highest People in Need (PiN) between 2010 and 2024?
+
+Which year had the most amount of people in need?
+
+How have global humanitarian needs (People Targeted, People in Need, Funding Requirements, and Funding Received) evolved from 2010 to 2024?
+
+*Bivariate*
+
+ What is the relationship between the amount of people in need and the funding requirements for Afghanistan from 2010 to 2024?
+ 
+ What is the relationship between the amount of people in need and the funding requirements for Syria from 2018 to 2024?
+ 
+ What is the relationship between the amount of people in need and the amount of people targeted for the top 5 countries with the most amount of people per metric?
         
