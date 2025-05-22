@@ -150,9 +150,11 @@ For these countries, 4 metrics were measured:
  *vanessa_eda.ipnyb*
 
  This notebook focuses on two questions: one univariate and one bivaraite. 
- The univariate question is "Which countries consistently had the highest People in Need (PiN) between 2010 and 2024?" 
+
+ #### The univariate question is "Which countries consistently had the highest People in Need (PiN) between 2010 and 2024?" 
  This notebook aggregated the total amount of people in need for each country and ranked those countries from most amount of People in Need to least amount of People in Need. The top 5 countries was used to create a visualization tracking the change in the amount of People in Need over time. 
- The bivariate question is "What is the relationship between the amount of people in need and the amount of people targeted for the top 5 countries with the most amount of people per metric?"
+
+ #### The bivariate question is "What is the relationship between the amount of people in need and the amount of people targeted for the top 5 countries with the most amount of people per metric?"
 This notebook creates a pivot table for the total numbers of people in need and people targeted for every country and turns it into a dataframe. The countries are ranked based on the sum of these two metrics. A graph for the top 5 are for better details. Stacked bar charts were created for both the top 5 and all countries. Both graphs show that the numbers of people targeted are consistently lower than the number for people in need.
 
  *tinu_eda.ipnyb*
