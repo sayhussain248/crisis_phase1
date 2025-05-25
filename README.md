@@ -158,8 +158,31 @@ For these countries, 4 metrics were measured:
 This notebook creates a pivot table for the total numbers of people in need and people targeted for every country and turns it into a dataframe. The countries are ranked based on the sum of these two metrics. A graph for the top 5 are for better details. Stacked bar charts were created for both the top 5 and all countries. Both graphs show that the numbers of people targeted are consistently lower than the number for people in need.
 
  *tinu_eda.ipnyb*
+#### The Univariate Analysis: Which year had the most amount of people in need from 2010 to 2024?
+This analysis examines a dataset containing the number of people in need from 2010 to 2024 to determine which year had the highest recorded need. 
+The goal is to perform a univariate analysis (single-variable analysis) on the yearly data to identify trends and the peak year.
 
- This notebook tracked the changes in the total amounts of People Targeted, Funding Requirements, and Funding Recieved from 2010 to 2024. 
+Key Questions:
+1. Which year between 2010 and 2024 had the highest number of people in need?
+
+2. How has the trend changed over the years?
+
+#### The Univariate Analysis:How have global humanitarian needs (People Targeted, People in Need) evolved from 2010 to 2024? 
+This analysis explores how global humanitarian needs have changed between 2010 and 2024, focusing on two key metrics:
+
+People in need: Total population requiring humanitarian assistance.
+
+People targeted: Those actually receiving aid due to funding.
+
+The goal is to perform a univariate analysis (examining each variable separately) to identify trends, peak years, and changes over time.
+
+Key Questions:
+1. How have People in need and People targeted evolved over 2010-2024?
+
+2. Which years had the highest recorded humanitarian needs?
+
+3. Is there a widening gap between PiN and People targeted (unmet needs)?
+
 
  *sayeda_eda.ipnyb*
 
