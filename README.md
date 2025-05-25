@@ -164,8 +164,12 @@ The goal is to perform a univariate analysis (single-variable analysis) on the y
 
 Key Questions:
 1. Which year between 2010 and 2024 had the highest number of people in need?
+The year with the highest number of people in need between 2010-2024 was 2023, with 975,016 individuals requiring assistance.
 
 2. How has the trend changed over the years?
+The overall trend shows: Consistent increase in humanitarian needs over the year. The number of people in need grew by approximately 475,016 individuals (95% increase) from 2010 to 2023.
+
+2020-2023 saw particularly sharp increases, likely due to: COVID-19 pandemic impacts, Escalating global conflicts and Climate-related disasters.
 
 #### The Univariate Analysis:How have global humanitarian needs (People Targeted, People in Need) evolved from 2010 to 2024? 
 This analysis explores how global humanitarian needs have changed between 2010 and 2024, focusing on two key metrics:
