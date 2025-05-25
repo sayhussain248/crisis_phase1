@@ -147,17 +147,22 @@ For these countries, 4 metrics were measured:
  Some of these countries did not have data from 2010 all the way to 2024. Others had data that was sparse. 
  The purpose of this project was to explore how humanitarian aid needs and funding has changed over time and for select countries. 
 
- *vanessa_eda.ipnyb*
+<hr>
 
- This notebook focuses on two questions: one univariate and one bivaraite. 
+### vanessa_eda.ipnyb
 
- #### The univariate question is "Which countries consistently had the highest People in Need (PiN) between 2010 and 2024?" 
- This notebook aggregated the total amount of people in need for each country and ranked those countries from most amount of People in Need to least amount of People in Need. The top 5 countries was used to create a visualization tracking the change in the amount of People in Need over time. 
+This notebook focuses on two questions: one univariate and one bivaraite. 
 
- #### The bivariate question is "What is the relationship between the amount of people in need and the amount of people targeted for the top 5 countries with the most amount of people per metric?"
+#### The univariate question is "Which countries consistently had the highest People in Need (PiN) between 2010 and 2024?" 
+This notebook aggregated the total amount of people in need for each country and ranked those countries from most amount of People in Need to least amount of People in Need. The top 5 countries was used to create a visualization tracking the change in the amount of People in Need over time. 
+
+#### The bivariate question is "What is the relationship between the amount of people in need and the amount of people targeted for the top 5 countries with the most amount of people per metric?"
 This notebook creates a pivot table for the total numbers of people in need and people targeted for every country and turns it into a dataframe. The countries are ranked based on the sum of these two metrics. A graph for the top 5 are for better details. Stacked bar charts were created for both the top 5 and all countries. Both graphs show that the numbers of people targeted are consistently lower than the number for people in need.
 
- *tinu_eda.ipnyb*
+<hr>
+
+### tinu_eda.ipnyb
+
 #### The Univariate Analysis: Which year had the most amount of people in need from 2010 to 2024?
 This analysis examines a dataset containing the number of people in need from 2010 to 2024 to determine which year had the highest recorded need. 
 The goal is to perform a univariate analysis (single-variable analysis) on the yearly data to identify trends and the peak year.
@@ -184,18 +189,33 @@ Key Questions:
 1. How have People in need and People targeted evolved over 2010-2024?
 From 2010-2024, People in Need (PiN) grew dramatically (peaking at 40.1M) while People Targeted reached only 14.7M at best, covering just 7.5% of needs on average. 
 
-2. Which years had the highest recorded humanitarian needs?
-The highest needs occurred in 2023 (40.1M), followed by 2022 (~38M) and 2021 (~35M). 
+1. Which years had the highest recorded humanitarian needs?
+The highest needs occurred in 2023 (40.1M), followed by 2022 (~38M) and 2021 (~35M).
 
-3. Is there a widening gap between PiN and People targeted (unmet needs)?
+1. Is there a widening gap between PiN and People targeted (unmet needs)?
 The gap between needs and responses widened severely, with unmet needs growing 50-fold from 2010 (500K) to 2023 (25.4M), as targeting consistently failed to keep pace with escalating crises.
 
- *sayeda_eda.ipnyb*
+<hr>
 
- This notebook focused specifically on tracking how Funding Requirements changed in relation to People in Need for Afghanistan and Syria. Afghanistan was chosen because it had the most amount of data for throughout the years ranging from 2010 to 2024, with the exception of 2016 for Funding Requirements. Syria was also chosen because it ranked the highest on the most people in need, despite their data points ranging more from 2018-2024. 
+### sayeda_eda.ipnyb*
 
- 
-**WRITE UP**
+ This notebook focused specifically on tracking how Funding Requirements changed in relation to People in Need for Afghanistan and Syria. Afghanistan was chosen because it had the most amount of data for throughout the years ranging from 2010 to 2024, with the exception of 2016 for Funding Requirements. Syria was also chosen because it ranked the highest on the most people in need, despite their data points ranging more from 2018-2024.
+
+<hr>
+
+### yuzhuang_eda.ipnyb
+
+This notebook focuses on 1 question for each univariate and bivaraite.
+* univariate:
+  * How have global humanitarian needs Funding Requirements and Funding Received evolved from 2010 to 2024?
+* bivaraite:
+  * What was the relationship between Funding received and Funding requirements across by year?
+  
+Both question for this note book is try the found out if there is a relationship between Funding Requirements and Funding Received. In crises, the efficient and equitable allocation of resources is critical. By examining this relationship, we seek to understand whether funding needs are being met proportionally and to identify patterns of underfunding or oversupply across different appeals or sectors. The findings from this analysis may help inform policymakers and aid organizations in making more data-driven, equitable funding decisions.
+
+<hr> 
+
+## WRITE UP
 
 *Univariate* 
 
@@ -205,11 +225,27 @@ Which year had the most amount of people in need?
 
 How have global humanitarian needs (People Targeted, People in Need, Funding Requirements, and Funding Received) evolved from 2010 to 2024?
 
+How have global humanitarian needs Funding Requirements and Funding Received evolved from 2010 to 2024? 
+  ```txt
+  Analyze:
+    Based on the histogram, we can see that global humanitarian funding requirements have been increasing over the years, especially from 2021 to 2024. The upward trend was most notable between 2017 and 2019, reaching the maximum value during this period. This may reflect the growing severity of global humanitarian crises.
+
+    Global humanitarian funding received has also been increasing, reaching the maximum value in 2019. However, the gap between requirements and received funding has been steadily widening. For example, in 2018, the gap was around 50%, whereas by 2019, it had exceeded 50%.
+  ```
+
 *Bivariate*
 
  What is the relationship between the amount of people in need and the funding requirements for Afghanistan from 2010 to 2024?
  
  What is the relationship between the amount of people in need and the funding requirements for Syria from 2018 to 2024?
+
+  What was the relationship between Funding received and Funding requirements across by year?
+  ```txt
+  Analyze: 
+    The scatter plot reveals a strong linear relationship between funding requirements and funding received across years. As funding needs increase, the received funding tends to rise proportionally. This is supported by a Pearson correlation coefficient of approximately 0.911078, indicating a very strong positive correlation. Therefore, we can conclude that there is a consistently strong relationship between the level of funding requirements and the funding provided over time. 
+
+    However, this relationship analysis is biased because of the lack of received funding data from 2022 to 2024, which causes data anomalies and thus results in biased outcomes.
+  ``` 
  
  What is the relationship between the amount of people in need and the amount of people targeted for the top 5 countries with the most amount of people per metric?
         
