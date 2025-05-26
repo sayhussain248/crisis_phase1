@@ -186,11 +186,11 @@ People targeted: Those actually receiving aid due to funding.
 The goal is to perform a univariate analysis (examining each variable separately) to identify trends, peak years, and changes over time.
 
 Key Questions:
-1. How have People in need and People targeted evolved over 2010-2024? 
+1. How have People in need and People targeted evolved over 2010-2024? From 2010-2024, People in Need (PiN) grew dramatically (peaking at 40.1M) while People Targeted reached only 14.7M at best, covering just 7.5% of needs on average.
 
-2. Which years had the highest recorded humanitarian needs?
+2. Which years had the highest recorded humanitarian needs? The highest needs occurred in 2023 (40.1M), followed by 2022 (~38M) and 2021 (~35M). 
 
-3. Is there a widening gap between PiN and People targeted (unmet needs)?
+3. Is there a widening gap between PiN and People targeted (unmet needs)? The gap between needs and responses widened severely, with unmet needs growing 50-fold from 2010 (500K) to 2023 (25.4M), as targeting consistently failed to keep pace with escalating crises.
 
 <hr>
 
