@@ -186,7 +186,8 @@ Key Questions:
 
 2. Which years had the highest recorded humanitarian needs? The highest needs occurred in 2023 (40.1M), followed by 2022 (~38M) and 2021 (~35M). 
 
-3. Is there a widening gap between PiN and People targeted (unmet needs)? The gap between needs and responses widened severely, with unmet needs growing 50-fold from 2010 (500K) to 2023 (25.4M), as targeting consistently failed to keep pace with escalating crises.
+3. Is there a widening gap between PiN and People targeted (unmet needs)? 
+
 
 <hr>
 
@@ -231,12 +232,17 @@ The overall trend shows: Consistent increase in humanitarian needs over the year
 2020-2023 saw particularly sharp increases, possibly due to: COVID-19 pandemic impacts, Escalating global conflicts and Climate-related disasters.
 
 *How have People in need and People targeted evolved over 2010-2024?*
+
+
 From 2010-2024, People in Need (PiN) grew dramatically (peaking at 40.1M) while People Targeted reached only 14.7M at best, covering just 7.5% of needs on average. 
 
 *Which years had the highest recorded humanitarian needs?*
+
+
 The highest needs occurred in 2023 (40.1M), followed by 2022 (~38M) and 2021 (~35M).
 
 *Is there a widening gap between PiN and People targeted (unmet needs)?*
+
 The gap between needs and responses widened severely, with unmet needs growing 50-fold from 2010 (500K) to 2023 (25.4M), as targeting consistently failed to keep pace with escalating crises.
 
 *How have global humanitarian needs Funding Requirements and Funding Received evolved from 2010 to 2024?*
