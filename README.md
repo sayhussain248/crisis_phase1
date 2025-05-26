@@ -184,9 +184,9 @@ The goal is to perform a univariate analysis (examining each variable separately
 Key Questions:
 1. How have People in need and People targeted evolved over 2010-2024?
 
-2. Which years had the highest recorded humanitarian needs?
+2. Which years had the highest recorded humanitarian needs? The highest needs occurred in 2023 (40.1M), followed by 2022 (~38M) and 2021 (~35M). 
 
-3. Is there a widening gap between PiN and People targeted (unmet needs)?
+3. Is there a widening gap between PiN and People targeted (unmet needs)? The gap between needs and responses widened severely, with unmet needs growing 50-fold from 2010 (500K) to 2023 (25.4M), as targeting consistently failed to keep pace with escalating crises.
 
 <hr>
 
